@@ -23,7 +23,7 @@ const HomePage =()=>{
       </div>
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6" style={{paddingTop:10}}>
-      <img className="object-cover object-center rounded" alt="hero" src={Picture} />
+      <img className="object-cover object-center rounded" alt="hero" src={Picture} style={{borderRadius:"100%"}} />
     </div>
   </div>
 </section>

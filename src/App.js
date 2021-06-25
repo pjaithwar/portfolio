@@ -5,8 +5,7 @@ import Experience from './Components/Experience';
 import Skills from './Components/Skills';
 import ContactMe from './Components/ContactMe';
 import HomePage from './Components/HomePage';
-import {BrowserRouter as Router , Switch, Route, Link} from 'react-router-dom';
-import Hello from './Components/Hello';
+import {BrowserRouter as Router , Switch, Route } from 'react-router-dom';
 
 function App() {
   return (

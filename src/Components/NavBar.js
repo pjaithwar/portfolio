@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from '../Images/logo.png';
-import { Link, NavLink } from "react-router-dom";
+import Logo from '../Images/logo.jpg';
+import { Link } from "react-router-dom";
 
 
 const NavBar =() => {
@@ -8,11 +8,9 @@ const NavBar =() => {
         
             <header className="text-gray-600 body-font" style={{backgroundColor:"#10B981", width:'100%',height:100,position:'fixed', borderRadius:30}}>
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center" style={{position:'fixed',backgroundColor:"#10B981",width:'100%', borderRadius:30}}>
-    <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-      {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg> */}
-      <img src={Logo} alt="logo" style={{width:49}}/>
+    <a  href="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      
+      <img src={Logo} alt="logo" style={{width:50,height:50,borderRadius:25}}/>
       <span class="ml-3 text-xl">My Portfolio</span>
     </a>
     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center" style={{fontWeight:"bold", color:"white"}}>
