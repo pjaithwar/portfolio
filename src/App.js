@@ -5,16 +5,20 @@ import Experience from './Components/Experience';
 import Skills from './Components/Skills';
 import ContactMe from './Components/ContactMe';
 import HomePage from './Components/HomePage';
+import Portfolio from './Components/Portfolio';
 import {BrowserRouter as Router , Switch, Route } from 'react-router-dom';
-import Hello from './Components/Hello';
 
 function App() {
   return (
     <Router>
     <div className="App">
-      <NavBar>
-        <HomePage/>
-      </NavBar>
+      <NavBar/>
+      {/* <HomePage/>
+      
+      <AboutMe/>
+      <Skills/>
+      <Experience/>
+      <ContactMe/> */}
       <Switch>
       
         <Route path="/"  exact component={HomePage}/>
@@ -22,8 +26,8 @@ function App() {
         <Route path="/skills"  exact component={Skills}/>
         <Route path="/experience"  exact component={Experience}/>
         <Route path="/contact"  exact component={ContactMe}/>
+        <Route path="/portfolio"  exact component={Portfolio}/>
       </Switch>
-
 
     </div>
     </Router>
