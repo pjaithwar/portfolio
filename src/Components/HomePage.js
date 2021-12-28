@@ -17,7 +17,7 @@ const HomePage =()=>{
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" style={{fontFamily:'"Times New Roman"', fontSize:45}}>Palash Jaithwar
       </h1>
       <p className="mb-8 leading-relaxed" style={{fontSize:20, color:"black", fontWeight:"bold"}}>Hi There!</p>
-      <p className="mb-8 leading-relaxed">I'm Palash Jaithwar a MERN Stack Developer, Cross-platform Mobile Developer and also a Guitarist.</p>
+      <p className="mb-8 leading-relaxed">I'm Palash Jaithwar a MERN Stack Developer, Cross-platform Mobile Application Developer and also a Guitarist.</p>
       <div className="flex justify-center">
       <button onClick={()=>history.push("/about")} className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Get Started</button>
       </div>

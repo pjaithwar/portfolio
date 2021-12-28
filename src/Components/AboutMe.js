@@ -29,7 +29,7 @@ const AboutMe = ()=> {
                 <p className="leading-relaxed text-lg mb-4">I am a young enthusiastic resource and I truly have invested in developing my skills.
                  I am open-minded.
                  I believe that a person should work on developing their professional skills and learning new things all the time. 
-                 I am pursuing B.Tech from Chameli Devi Group of Institutions in the stream of Computer Science & Engineering with current aggregate 80.6%.
+                 I have completed B.Tech from Chameli Devi Group of Institutions in the stream of Computer Science & Engineering and passed <b>First Division with Honours.</b> 
                  Apart from that I am also a Guitarist.
                  Being a quick and enthusiastic learner, excited for the new learnings, experiences and achievements.</p>
                 
@@ -48,11 +48,11 @@ const AboutMe = ()=> {
       <div className="py-8 flex flex-wrap md:flex-nowrap">
         <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
           <span className="font-semibold title-font text-gray-700">B.Tech</span>
-          <span className="mt-1 text-gray-500 text-sm">Pursuing</span>
+          <span className="mt-1 text-gray-500 text-sm">15 July 2021</span>
         </div>
         <div className="md:flex-grow">
           <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Bachleor of Technology (Computer Science & Engineering) </h2>
-          <p className="leading-relaxed">I am pursuing B.Tech from <b>Chameli Devi Group of Institutions, Indore (M.P.)</b> in the stream of Computer Science & Engineering with current aggregate 80.6%.</p>
+          <p className="leading-relaxed">I have completed B.Tech from <b>Chameli Devi Group of Institutions, Indore (M.P.)</b> in the stream of Computer Science & Engineering and passed <b> First Division with Honours.</b></p>
         </div>
       </div>
       <div className="py-8 flex flex-wrap md:flex-nowrap">
