@@ -16,7 +16,7 @@ const ContactMe = () => {
       }
     return (
 
-        <form onSubmit={sendEmail} className="flex" style={{ paddingTop: 90 }}>
+        <form onSubmit={sendEmail} className="flex" style={{ paddingTop: 90, paddingBottom: 90 }}>
             <div style={{ backgroundColor: "#84fab0" }} className="w-full max-w-2xl px-5 py-10 m-auto mt-10 bg-white rounded-lg shadow dark:bg-gray-800">
                 <div style={{ fontWeight: "bold", fontSize: 50, fontFamily: '"Times New Roman"' }} className="mb-6 text-3xl font-light text-center text-gray-800 dark:text-white">
                     Contact Me
@@ -25,11 +25,11 @@ const ContactMe = () => {
                 <div className="grid max-w-xl grid-cols-2 gap-4 m-auto">
                 
                     <label>Name</label>
-                    <input type="text" name="from_name" />
+                    <input style={{paddingLeft:10, borderRadius:50}} type="text" name="from_name" placeholder='Enter your name' />
                     <label>Email</label>
-                    <input type="email" name="from_email" />
+                    <input style={{paddingLeft:10, borderRadius:50}} type="email" name="from_email" placeholder='Enter your email' />
                     <label>Message</label>
-                    <textarea name="message" />
+                    <textarea style={{paddingLeft:10, borderRadius:10}} name="message" placeholder='Type your message here' />
                     
                     <button type="submit" className="py-2 px-4  bg-green-600 hover:bg-green-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
                             Send
