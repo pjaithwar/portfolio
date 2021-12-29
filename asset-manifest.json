@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bd2106e0.chunk.css",
-    "main.js": "/portfolio/static/js/main.82367f4b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.82367f4b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.f97789bc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f97789bc.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3a088304.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.3a088304.js.map",
     "static/js/2.9ad79ad7.chunk.js": "/portfolio/static/js/2.9ad79ad7.chunk.js",
@@ -12,13 +12,20 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.bd2106e0.chunk.css.map": "/portfolio/static/css/main.bd2106e0.chunk.css.map",
     "static/js/2.9ad79ad7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9ad79ad7.chunk.js.LICENSE.txt",
+    "static/media/TDi_logo_round.4bff471c.png": "/portfolio/static/media/TDi_logo_round.4bff471c.png",
+    "static/media/bootstrap.90cb6b78.png": "/portfolio/static/media/bootstrap.90cb6b78.png",
     "static/media/developer-1.491aea47.jpg": "/portfolio/static/media/developer-1.491aea47.jpg",
-    "static/media/logo.ea9a3e0f.jpg": "/portfolio/static/media/logo.ea9a3e0f.jpg"
+    "static/media/git.71c50c7d.jpg": "/portfolio/static/media/git.71c50c7d.jpg",
+    "static/media/javascript.b11ae01c.jpg": "/portfolio/static/media/javascript.b11ae01c.jpg",
+    "static/media/logo.ea9a3e0f.jpg": "/portfolio/static/media/logo.ea9a3e0f.jpg",
+    "static/media/mern.872ccb88.jpg": "/portfolio/static/media/mern.872ccb88.jpg",
+    "static/media/mongoDB.3e8153e1.jpg": "/portfolio/static/media/mongoDB.3e8153e1.jpg",
+    "static/media/react-native.fac641ea.jpg": "/portfolio/static/media/react-native.fac641ea.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3a088304.js",
     "static/js/2.9ad79ad7.chunk.js",
     "static/css/main.bd2106e0.chunk.css",
-    "static/js/main.82367f4b.chunk.js"
+    "static/js/main.f97789bc.chunk.js"
   ]
 }
